@@ -1,0 +1,22 @@
+/**
+ * Chagas, Baruque & Baruque (2010): atividade prática 7 e 8 (pág. 117)
+ * 
+ * @author Hermes Feitoza Barros 
+ * @version 30/11/2022
+ */
+
+public class TestarEquipamento
+{
+   public static void main(String[] args){
+       Equipamento equipObject = new Equipamento();
+       equipObject.voltagem = 220;
+       equipObject.memoria = 4096;
+       Computador compObject = new Computador();
+       compObject.ghzProcessador = 3.40;
+       compObject.ram = 8;
+       System.out.println("Voltagem do equipamento: "+ equipObject.voltagem);
+       System.out.println("\nMemoria do equipamento: "+ equipObject.memoria);
+       System.out.println("\nGHz do processador do computador: "+ compObject.ghzProcessador);
+       System.out.println("\nGHz do processador do computador: "+ compObject.ram);
+    }
+}
