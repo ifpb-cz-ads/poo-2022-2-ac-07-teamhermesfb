@@ -17,7 +17,15 @@ public class Equipamento {
         return this.voltagem;
     }
     
+    public void setVoltagem(int voltagem){
+        this.voltagem = voltagem;
+    }
+    
     public double getMemoria(){
         return this.memoria;
+    }
+    
+    public void setMemoria(int memoria){
+        this.memoria = memoria;
     }
 }
