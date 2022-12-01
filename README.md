@@ -1,9 +1,9 @@
-2)
+4)
 class Equipamento {
     private int voltagem;
     private double memoria;
 }
 
-4)
+5)
 public class Computador extends Equipamento{
 }
